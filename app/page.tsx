@@ -1,3 +1,10 @@
+import DBTest from "./DBTest";
+
 export default function Home() {
-  return <>Hello World!</>;
+  return (
+    <>
+      Hello World!
+      <DBTest />
+    </>
+  );
 }
